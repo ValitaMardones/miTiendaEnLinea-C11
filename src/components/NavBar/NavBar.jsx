@@ -10,6 +10,9 @@ function NavBar() {
   const [NombreVar, function modificadoraDeVariable) = useState(valor inicial variable)] 
   La convencion es que la funcion modificadora de varible se le anteponga un set. + nombre de la variable, todo junto y usando camelCase*/
   const [menu, setMenu] = useState("tienda");
+  {
+    /* tienda como parametro de useState es el valor inicial que tendra la pagina web cuando ingresemos a ella */
+  }
   return (
     <div className="navbar">
       <div className="nav-logo">
